@@ -1,7 +1,7 @@
 # gulp-winresourcer
 
 ```javascript
-return gulp.src('nw/build/ExpertOption/win32/ExpertOption.exe')
+return gulp.src('./app.exe')
             .pipe(winresourcer({
                 operation: "Update", // one of Add, Update, Extract or Delete
                 resourceType: "Icongroup",
