@@ -22,7 +22,7 @@ return gulp.src('./app.exe')
 
 ##### Linux & Mac OS X
 
-- [wine](http://www.winehq.org/) [Use wine guide](https://www.davidbaumgold.com/tutorials/wine-mac/)
+- [wine](http://www.winehq.org/), You can [use wine guide](https://www.davidbaumgold.com/tutorials/wine-mac/)
 - Require .NET framework 2.0 (or equivalent)
 - Require a X server (Gnome, KDE, ...). You can also use [Xvfb](http://en.wikipedia.org/wiki/Xvfb)
 
