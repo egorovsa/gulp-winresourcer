@@ -11,7 +11,7 @@ return gulp.src('nw/build/ExpertOption/win32/ExpertOption.exe')
             }));
 ```
 
-[Main winresources module](https://github.com/felicienfrancois/node-winresourcer)
+[Dependence from node-winresourcer](https://github.com/felicienfrancois/node-winresourcer)
 
 ### Requirements
 
