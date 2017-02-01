@@ -1,0 +1,27 @@
+{
+  "name": "gulp-winresourcer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/egorovsa/gulp-winresourcer.git"
+  },
+  "keywords": [
+    "gulp",
+    "winrecourcer"
+  ],
+  "author": "egorovsa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/egorovsa/gulp-winresourcer/issues"
+  },
+  "homepage": "https://github.com/egorovsa/gulp-winresourcer#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "winresourcer": "^0.9.0"
+  }
+}
