@@ -1,6 +1,6 @@
 {
   "name": "gulp-winresourcer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,7 @@
   "homepage": "https://github.com/egorovsa/gulp-winresourcer#readme",
   "dependencies": {
     "lodash": "^4.17.4",
+    "path": "^0.12.7",
     "winresourcer": "^0.9.0"
   }
 }

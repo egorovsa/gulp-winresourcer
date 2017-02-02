@@ -3,6 +3,7 @@
 const Stream = require('stream');
 const winResourcer = require("winresourcer");
 const _ = require("lodash");
+const path = require('path');
 
 var mainOptions = {
     operation: "Update", // one of Add, Update, Extract or Delete
@@ -18,8 +19,11 @@ function gulpWinresourcer(options) {
     var stream = new Stream.Transform({objectMode: true});
 
     var resApp = function (filePath, cb) {
-        mainOptions.exeFile = filePath;
         _.extend(mainOptions, options);
+
+        mainOptions.exeFile = filePath;
+        mainOptions.resourceFile = path.resolve(mainOptions.resourceFile);
+
         winResourcer(mainOptions, function (error) {
             cb(error);
         });
